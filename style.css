@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  /* 防止出現滾動條 */
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;  /* 移除canvas的預設間距 */
+}
